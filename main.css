@@ -1,0 +1,35 @@
+/* Refined styling for SHAP section and model visuals */
+.image.fit {
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+    margin-bottom: 1.5rem;
+}
+
+.image.fit:hover {
+    transform: scale(1.02);
+}
+
+article h4 {
+    margin-top: 2rem;
+    font-weight: 600;
+    color: #2c3e50;
+    font-size: 1.25em;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 6px;
+    margin-bottom: 15px;
+}
+
+p code {
+    background-color: #f5f5f5;
+    padding: 3px 6px;
+    border-radius: 4px;
+    font-family: "Courier New", Courier, monospace;
+    color: #c0392b;
+}
+
+ul {
+    padding-left: 1.5rem;
+    list-style-type: disc;
+    line-height: 1.6;
+}
